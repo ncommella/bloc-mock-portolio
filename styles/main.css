@@ -1,0 +1,52 @@
+body {
+  padding-bottom: 5rem;
+}
+
+header {
+  background: url(../images/hero-water.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgba(248, 248, 248, .9);
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.slogan {
+  color: rgba(248, 248, 248, .8);
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer{
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  font-size: 2rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px){
+  header.mdl-layout__header{
+    display: flex;
+  }
+}
