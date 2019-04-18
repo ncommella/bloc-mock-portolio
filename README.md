@@ -1,3 +1,3 @@
 # My Portfolio
 
-A showcase of my work from the program
+A Mock portfolio created using HTML and CSS for the Bloc program. Uses the Material Design Lite library.
